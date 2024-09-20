@@ -1,5 +1,14 @@
 Title,Tags,Votes,Timestamp,User ID
-Unable to write to the file,"javascript, node.js",0,2024-09-20 14:43:29Z,11445172
+Odoo Snippet Not Visible in Website Builder After Module Installation,"javascript, python-3.x, odoo, qweb, odoo-16",0,2024-09-20 16:35:44Z,25666611
+"How do I create a userscript that creates a button on a webpage, that when clicked, runs the GM_registerMenuCommand for that userscript?","javascript, button, userscripts, violentmonkey",0,2024-09-20 16:32:22Z,22003790
+Tabs not aligned in Bootstrap Modal,"javascript, html, css, bootstrap-4, modal-dialog",0,2024-09-20 15:58:43Z,27394237
+Is there a way to make a different function happen after every single click on the document in js?,"javascript, html",0,2024-09-20 15:11:22Z,26576287
+setInterval and clearInterval in React (stopwatch) [closed],"javascript, react-native, setinterval, clearinterval",-3,2024-09-20 15:08:42Z,27393691
+highcharts tree graph panning and zoom in and out,"javascript, html, jquery, css, highcharts",0,2024-09-20 15:07:23Z,23273760
+Spotify Web API redirect user back to the app after log out [duplicate],"javascript, node.js, authentication, spotify",0,2024-09-20 15:06:46Z,21127165
+Unable to Track New Files and Folders in Git with VS Code,"javascript, html, css, git, github",-1,2024-09-20 14:55:27Z,24946838
+How to correctly handle issues with incorrect rotation axes after multiple CSS rotate transformations,"javascript, css, reactjs",0,2024-09-20 14:54:50Z,27387152
+Unable to write to the file [closed],"javascript, node.js",0,2024-09-20 14:43:29Z,11445172
 Google OAuth 2.0 issues,"javascript, reactjs, node.js, express, google-oauth",0,2024-09-20 14:27:16Z,20494649
 "Save Contact with vcf works on mac, but not on iPhone","javascript, reactjs, vcf-vcard, vcftools",0,2024-09-20 14:21:48Z,7942553
 How does FlatList rendering items with same names work?,"javascript, html, css, reactjs, react-native",0,2024-09-20 14:16:31Z,21584043
@@ -8,9 +17,9 @@ Static Route Triggering Dynamic Parallel Route in Next.js,"javascript, reactjs, 
 ERPNext Query & Script code Problem for Report,"javascript, python, report, erpnext",0,2024-09-20 13:40:48Z,27391380
 Heap out of memory Angular Ckeditor 5,"javascript, angular, typescript, ckeditor, ckeditor5",0,2024-09-20 13:31:48Z,13767935
 Redux mockStore - Data not passing in component,"javascript, reactjs, jestjs, react-testing-library, redux-mock-store",0,2024-09-20 13:13:50Z,15181085
-Compare string with day and month of date,"javascript, jquery, css, calendar",-1,2024-09-20 13:11:46Z,4469993
+Compare string with day and month of date,"javascript, jquery, css, calendar",0,2024-09-20 13:11:46Z,4469993
 Show/hide some text in larger text,"javascript, html, css",1,2024-09-20 13:05:57Z,5058384
-Scale rotated SVGelements,"javascript, svg",0,2024-09-20 12:57:01Z,4728913
+Scale rotated SVGelements,"javascript, svg",1,2024-09-20 12:57:01Z,4728913
 How to force UI draw in ElectronJS prior to intense computation task?,"javascript, electron",0,2024-09-20 12:51:12Z,2721846
 Adjacent Plot with Shared Y-axis in Scichart JS,"javascript, scichart",0,2024-09-20 12:45:13Z,4555763
 Using useEffect takes time to load and not using it leads to render the component twice,"javascript, reactjs, typescript, tsx",0,2024-09-20 12:41:04Z,17448458
@@ -26,10 +35,12 @@ Uncaught TypeError: number 0 is not iterable (cannot read property Symbol(Symbol
 "Inconsistent window.scrollTo(0, 0) Behavior","javascript, html, npm, barbajs",0,2024-09-20 11:00:19Z,21888413
 How to clip curvedText in fabricjs version 5?,"javascript, fabricjs, fabricjs2",0,2024-09-20 10:50:39Z,9671590
 How to exit process.stdin.on without exiting the entire program?,"javascript, node.js, process, stdin, readline",0,2024-09-20 10:17:42Z,11315745
+How to test a Redux component the right way?,"javascript, reactjs, redux, jestjs, react-testing-library",-1,2024-09-20 10:11:19Z,23916759
 how to make the text in the items to float above the image in SwipeJS?,"javascript, html, css, carousel, swipe",1,2024-09-20 10:06:56Z,1235167
 Next Page is not loading and setting values in Suitelet Page,"javascript, netsuite, suitescript2.0",0,2024-09-20 09:56:54Z,19443460
-How to display a new table (2) after click on row table (1) for view details,", javascript, php, html, ajax",-2,2024-09-20 09:48:27Z,27351723
+How to display a new table (2) after click on row table (1) for view details [closed],", javascript, php, html, ajax",-3,2024-09-20 09:48:27Z,27351723
 TinyMCE 7.3.0 - DOM error on editor destroy,"javascript, dom, tinymce",0,2024-09-20 09:29:13Z,8216548
+"Jest testing error: TypeError: (0 , import_redux2.combineReducers) is not a function","javascript, reactjs, jestjs, react-testing-library, redux-toolkit",0,2024-09-20 09:29:12Z,27390274
 Who can explain this weird inference in TypeScript?,"javascript, node.js, typescript, ecmascript-6, babeljs",1,2024-09-20 09:04:53Z,972197
 Display of image sequences in Webbrowser using VueJs,"javascript, image, vue.js",0,2024-09-20 08:58:25Z,1210977
 Validation with alpine.js,"javascript, alpine.js",0,2024-09-20 08:43:36Z,15552873
@@ -42,6 +53,7 @@ Functions written inside the File not getting mocked in Node js Test case,"javas
 Non-async function call inside an async function,"javascript, reactjs, async-await",0,2024-09-20 07:36:13Z,22490316
 Document doesn't get deleted after expiration,"javascript, node.js, mongodb, mongoose",0,2024-09-20 07:35:54Z,23603116
 vue3.5 Pass a value to a child component but the child component has not yet been mounted,"javascript, vuejs3, vue-component, vue-props",0,2024-09-20 07:22:29Z,25033642
+The centers of the arrow tails on my Leaflet markers are misaligned,"javascript, leaflet",0,2024-09-20 07:09:26Z,15253574
 JavaScript - for Loop [closed],"javascript, loops, for-loop, variables",-2,2024-09-20 07:03:34Z,21772878
 how to handle seperate FormData in the replicated form?,"javascript, html, jquery, forms, modal-dialog",0,2024-09-20 06:17:49Z,11962700
 "Why callback function showing ""Undefined"" result?","javascript, function, callback, automated-tests, postman",-4,2024-09-20 06:11:33Z,26857119
@@ -87,15 +99,3 @@ Pass cookie to a fetch request on a different subdmain,"javascript, cookies, axi
 How to know what graph are you referring with multiple eCharts graphs in one page with `renderItem` callback,"javascript, callback, echarts",1,2024-09-19 19:47:52Z,27160653
 Prop is usable in template but not in script,"javascript, vue.js",0,2024-09-19 19:33:27Z,4349227
 How to arrange data structure for querying in firebase for this explained query not to give any error?,", javascript, firebase, google-cloud-platform, google-cloud-firestore",0,2024-09-19 19:31:07Z,12698480
-d3js pie chart with specific less traditional different patterns for the segments with slightly rounded corners,"javascript, d3.js",0,2024-09-19 19:29:32Z,2700673
-"Error: SyntaxError: Unexpected token '<', ""<!DOCTYPE ""... is not valid JSON, using google cloud functions [closed]",", javascript, firebase, google-cloud-functions, google-oauth",-4,2024-09-19 18:49:29Z,18076768
-"Issue running tests with Enzyme, React 16, and Emotion 11.x","javascript, reactjs, babeljs, enzyme, emotion",0,2024-09-19 18:41:53Z,10152171
-Convert string to a dd/mm/yyyy date format no matter the strings format in JavaScript [closed],"javascript, regex, date, format, date-format",-3,2024-09-19 18:40:37Z,14215359
-Listening to the Ticking of a Symfony made checkbox with javascript,"javascript, events, checkbox, symfony5",0,2024-09-19 18:20:48Z,27163109
-How to correctly load ag-Grid CSS in an older Node.js 10.16.3 project using Polymer and Webpack?,"javascript, node.js, polymer, ag-grid, web-component",0,2024-09-19 18:12:22Z,15586377
-how to compare password in backend of REACT app using bcrypt [closed],"javascript, cryptography, passwords, compare, bcrypt",-4,2024-09-19 18:08:09Z,24199158
-TypeError: originalFactory is undefined in Aplication Next 14,"javascript, node.js, next.js, frontend, web-frontend",0,2024-09-19 18:06:25Z,23577848
-d3js semi-pie chart with a seamless wiggle rainbow color pattern,"javascript, d3.js",1,2024-09-19 17:58:48Z,2700673
-HTML5 Canvas - Rotate Canvas Using Easing Function,"javascript, animation, html5-canvas, rotation, easing",0,2024-09-19 17:48:29Z,5768255
-Why is my state variable not updating inside of my socket.on call in useeffect? [duplicate],"javascript, reactjs, react-hooks, socket.io",0,2024-09-19 17:29:56Z,27383489
-"I have tried to implement search functionality in react, when I clear the input, I am not getting back the full list","javascript, reactjs, arrays, react-hooks, react-state",1,2024-09-19 17:28:52Z,23855261
