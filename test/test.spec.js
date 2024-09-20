@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+const { test } = require("@playwright/test");
 const { createObjectCsvWriter } = require("csv-writer");
 const AxeBuilder = require("@axe-core/playwright").default;
 
@@ -25,12 +25,12 @@ test("Extract Stack Overflow Questions", async ({ page }, testInfo) => {
   await page.click('button[data-se-uql-target="applyButton"]');
   await page.waitForSelector(".s-post-summary", { timeout: 10000 });
 
-  const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
+const accessibilityScanResults = await new AxeBuilder({ page }).analyze();
   await testInfo.attach('accessibility-scan-results', {
     body: JSON.stringify(accessibilityScanResults, null, 2),
     contentType: 'application/json'
   });
-  
+    
   await page.click('a.s-pagination--item[href*="pagesize=50"]');
   await page.waitForSelector(".s-post-summary", { timeout: 10000 });
 

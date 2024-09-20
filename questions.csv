@@ -1,6 +1,7 @@
 Title,Tags,Votes,Timestamp,User ID
+Audio intermitency js,"javascript, html, audio, audio-streaming, web-audio-api",0,2024-09-20 16:39:27Z,11957546
 Odoo Snippet Not Visible in Website Builder After Module Installation,"javascript, python-3.x, odoo, qweb, odoo-16",0,2024-09-20 16:35:44Z,25666611
-"How do I create a userscript that creates a button on a webpage, that when clicked, runs the GM_registerMenuCommand for that userscript?","javascript, button, userscripts, violentmonkey",0,2024-09-20 16:32:22Z,22003790
+"How do I create a userscript that creates a button on a webpage, that when clicked, runs the GM_registerMenuCommand for that userscript?","javascript, button, userscripts, violentmonkey",-1,2024-09-20 16:32:22Z,22003790
 Tabs not aligned in Bootstrap Modal,"javascript, html, css, bootstrap-4, modal-dialog",0,2024-09-20 15:58:43Z,27394237
 Is there a way to make a different function happen after every single click on the document in js?,"javascript, html",0,2024-09-20 15:11:22Z,26576287
 setInterval and clearInterval in React (stopwatch) [closed],"javascript, react-native, setinterval, clearinterval",-3,2024-09-20 15:08:42Z,27393691
@@ -8,7 +9,7 @@ highcharts tree graph panning and zoom in and out,"javascript, html, jquery, css
 Spotify Web API redirect user back to the app after log out [duplicate],"javascript, node.js, authentication, spotify",0,2024-09-20 15:06:46Z,21127165
 Unable to Track New Files and Folders in Git with VS Code,"javascript, html, css, git, github",-1,2024-09-20 14:55:27Z,24946838
 How to correctly handle issues with incorrect rotation axes after multiple CSS rotate transformations,"javascript, css, reactjs",0,2024-09-20 14:54:50Z,27387152
-Unable to write to the file [closed],"javascript, node.js",0,2024-09-20 14:43:29Z,11445172
+Unable to write to the file [closed],"javascript, node.js",-2,2024-09-20 14:43:29Z,11445172
 Google OAuth 2.0 issues,"javascript, reactjs, node.js, express, google-oauth",0,2024-09-20 14:27:16Z,20494649
 "Save Contact with vcf works on mac, but not on iPhone","javascript, reactjs, vcf-vcard, vcftools",0,2024-09-20 14:21:48Z,7942553
 How does FlatList rendering items with same names work?,"javascript, html, css, reactjs, react-native",0,2024-09-20 14:16:31Z,21584043
@@ -98,4 +99,3 @@ The request failed to reach my Django view,"javascript, python, django",0,2024-0
 Pass cookie to a fetch request on a different subdmain,"javascript, cookies, axios, fetch-api, httponly",0,2024-09-19 20:12:08Z,2399035
 How to know what graph are you referring with multiple eCharts graphs in one page with `renderItem` callback,"javascript, callback, echarts",1,2024-09-19 19:47:52Z,27160653
 Prop is usable in template but not in script,"javascript, vue.js",0,2024-09-19 19:33:27Z,4349227
-How to arrange data structure for querying in firebase for this explained query not to give any error?,", javascript, firebase, google-cloud-platform, google-cloud-firestore",0,2024-09-19 19:31:07Z,12698480
