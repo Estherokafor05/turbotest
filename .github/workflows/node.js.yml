@@ -25,4 +25,4 @@ jobs:
         run: npm install 
 
       - name: Run tests
-        run: npm test --prefix turbotest-takehome-v2
+        run: npm test 
