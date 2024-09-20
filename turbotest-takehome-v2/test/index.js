@@ -12,6 +12,7 @@ const { createObjectCsvWriter } = require("csv-writer");
     timeout: 600000,
   });
 
+
   try {
     const cookieModalSelector = "#onetrust-accept-btn-handler";
     await page.waitForSelector(cookieModalSelector, { timeout: 5000 });
