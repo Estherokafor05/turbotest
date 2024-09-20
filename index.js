@@ -1,4 +1,4 @@
-const { chromium } = require("playwright");
+const { chromium, expect } = require("playwright");
 const { createObjectCsvWriter } = require("csv-writer");
 
 (async () => {
@@ -12,7 +12,6 @@ const { createObjectCsvWriter } = require("csv-writer");
     timeout: 600000,
   });
 
-
   try {
     const cookieModalSelector = "#onetrust-accept-btn-handler";
     await page.waitForSelector(cookieModalSelector, { timeout: 5000 });
@@ -22,7 +21,6 @@ const { createObjectCsvWriter } = require("csv-writer");
     console.log("No cookie consent modal appeared.");
   }
 
-  // Filter by JavaScript
   await page.click('a[href*="/questions?tab=Newest"]');
   await page.click('button[aria-controls="uql-form"]');
   await page.fill(
@@ -32,26 +30,20 @@ const { createObjectCsvWriter } = require("csv-writer");
   await page.click('button[data-se-uql-target="applyButton"]');
   await page.waitForSelector(".s-post-summary", { timeout: 10000 });
 
-  // Select page size
   await page.click('a.s-pagination--item[href*="pagesize=50"]');
   await page.waitForSelector(".s-post-summary", { timeout: 10000 });
 
   const allQuestions = [];
-
   for (let pageNumber = 1; pageNumber <= 2; pageNumber++) {
     console.log(`Extracting questions from page ${pageNumber}...`);
     const extractedQuestions = await extractQuestions(page);
     allQuestions.push(...extractedQuestions);
-
     if (pageNumber < 2) {
-      // Navigate to the next page only if not the last one
       await page.click(`a.s-pagination--item[href*="page=${pageNumber + 1}"]`);
       await page.waitForSelector(".s-post-summary", { timeout: 10000 });
     }
   }
-
   const questionsData = allQuestions.slice(0, 100);
-
   const csvWriter = createObjectCsvWriter({
     path: "questions.csv",
     header: [
@@ -67,21 +59,26 @@ const { createObjectCsvWriter } = require("csv-writer");
   console.log(
     `Extracted ${questionsData.length} questions. Data saved to questions.csv`
   );
-
   let isSorted = true;
   for (let i = 1; i < questionsData.length; i++) {
-    if (new Date(questionsData[i - 1].timestamp) < new Date(questionsData[i].timestamp)) {
+    if (
+      new Date(questionsData[i - 1].timestamp) <
+      new Date(questionsData[i].timestamp)
+    ) {
       isSorted = false;
       break;
     }
   }
 
-  const allTagsPresent = questionsData.every(q => q.tags.includes('javascript'));
-
+  const allTagsPresent = questionsData.every((q) =>
+    q.tags.includes("javascript")
+  );
   console.log(`Validation: Questions sorted by newest - ${isSorted}`);
-  console.log(`Validation: All questions have 'javascript' tag - ${allTagsPresent}`);
+  console.log(
+    `Validation: All questions have 'javascript' tag - ${allTagsPresent}`
+  );
 
-  await browser.close(); 
+  await browser.close();
 })();
 
 async function extractQuestions(page) {
