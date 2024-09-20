@@ -1,4 +1,4 @@
-const { test, expect } = require("@playwright/test");
+const { test } = require("@playwright/test");
 const { createObjectCsvWriter } = require("csv-writer");
 
 test("Extract Stack Overflow Questions", async ({ page }) => {
