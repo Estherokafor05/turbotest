@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: playwright-report
-          path: turbotest-takehome-v2/playwright-report
+          path: /playwright-report
